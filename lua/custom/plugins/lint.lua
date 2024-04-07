@@ -1,5 +1,6 @@
---[[ return {
+return {}
 
+--[[ return {
   { -- Linting
     'mfussenegger/nvim-lint',
     event = { 'BufReadPre', 'BufNewFile' },
@@ -51,6 +52,7 @@
         end,
       })
     end,
-  },
+  }
 }
- ]]
+]]
+
